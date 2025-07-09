@@ -76,16 +76,17 @@
 
             <p>//Lumberjack</p>
         </article>
-        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
-<script>
-  window.addEventListener('scroll', () => {
-    const button = document.querySelector('.back-to-top');
-    button.style.display = (window.scrollY > 500) ? 'block' : 'none';
-  });
-</script>
 
         <footer>
             <p>&copy; 2025 Lumberjack. No guide. Just stories.</p>
+            <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+            <script>
+                window.addEventListener('scroll', () => {
+                    const button = document.querySelector('.back-to-top');
+                    button.style.display = (window.scrollY > 500) ? 'block' : 'none';
+                });
+            </script>
+
         </footer>
 </body>
 

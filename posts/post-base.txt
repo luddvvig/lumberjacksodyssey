@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Hiking sucks. I love it. I hate that. One man’s painfully honest guide to what walking all day really feels like.">
+    <title>What Hiking’s Really Like - Lumberjack’s Perpetual Odyssey</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <header>
+        <header>
+            <a href="../index.html"><img src="../Photos/Logos/LumberjackLogo.jpeg" alt="Logo of Lumberjack"
+                    height="200px"></a>
+            <h1><a href="../index.html">Lumberjack’s Perpetual Odyssey</a></h1>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../about-me.html">About</a>
+            </nav>
+        </header>
+
+
+        <main class="post-content">
+            <article>
+                <h2>What Hiking’s Really Like</h2>
+
+
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Lumberjack. No guide. Just stories.</p>
+        </footer>
+</body>
+
+</html>

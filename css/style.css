@@ -1,0 +1,213 @@
+/* Reset-ish */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Spectral', serif;
+}
+
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+body {
+  font-family: 'Spectral', serif;
+  line-height: 1.6;
+  background-color: #eae1d3;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #222;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+  text-align: center;
+}
+
+main article {
+  margin-bottom: 3rem;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+  color: #444;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.post-item {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.post-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.post-item div {
+  flex: 1;
+}
+
+.post-item h3 {
+  margin: 0 0 0.5rem;
+  color: #222;
+}
+
+.post-item p {
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.post-item a {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-item a:hover h3 {
+  text-decoration: underline;
+}
+
+.post-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.post-content img {
+  max-width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.post-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.post-content p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+#same-view {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;              
+    width: 35%;            
+    max-width: 1200px;      
+    margin: 0 auto;      
+}
+
+/* Stil för en mellanstor bild i en artikel */
+.image-medium {
+
+    max-width: 500px;       /* Sätter en maxbredd. Bilden blir aldrig bredare än 500px. */
+    width: 75%;             /* Gör att bilden anpassar sig och blir mindre på smala skärmar (t.ex. mobil) */
+    height: auto;           /* Behåller bildens proportioner så den inte blir förvrängd */
+    margin: 20px auto;      /* Centrerar bilden horisontellt och lägger till luft ovanför/under */
+    border-radius: 8px;     /* Frivilligt: Ger bilden snyggt rundade hörn */
+}
+
+/* Anpassar bildtexten som hör till en figure-tagg */
+figure figcaption {
+    text-align: center;     /* Centrerar texten under bilden */
+    font-style: italic;     /* Gör texten kursiv för att efterlikna en klassisk bildtext */
+    color: #666;            /* Ger texten en lite ljusare grå färg */
+    margin-top: 5px;        /* Lite luft mellan bild och text */
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+a {
+  color: #ecabab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .post-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .post-item img {
+    width: 80%;
+    height: auto;
+  }
+}

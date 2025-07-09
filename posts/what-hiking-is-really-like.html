@@ -101,6 +101,13 @@
                 I hate that.<br>
                 Yeah, I'll probably do this again soon.</p>
         </article>
+        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+<script>
+  window.addEventListener('scroll', () => {
+    const button = document.querySelector('.back-to-top');
+    button.style.display = (window.scrollY > 500) ? 'block' : 'none';
+  });
+</script>
     </main>
 
     <footer>
